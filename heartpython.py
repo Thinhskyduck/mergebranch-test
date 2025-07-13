@@ -3,7 +3,7 @@ from math import sin, cos, pi
 from tkinter import *
 
 # Kích thước canvas
-WIDTH, HEIGHT = 640, 480
+WIDTH, HEIGHT = 640, 490
 CENTER_X, CENTER_Y = WIDTH // 2, HEIGHT // 2
 SCALE = 12  # Phóng to hình trái tim
 COLOR = "#f76070"  # Màu trái tim
@@ -47,3 +47,4 @@ canvas.pack()
 
 draw_heart(canvas, 0)
 root.mainloop()
+
